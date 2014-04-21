@@ -1,0 +1,25 @@
+{
+  "name": "pagerun-htmlhint",
+  "version": "0.9.1",
+  "description": "Htmlhint for pagerun.",
+  "main": "htmlhint",
+  "dependencies": {
+    "htmlhint": "0.9.5"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/yaniswang/pagerun-htmlhint.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yaniswang/pagerun-htmlhint/issues"
+  },
+  "keywords": [
+    "pagerun",
+    "htmlhint",
+    "nodejs",
+    "javascript"
+  ],
+  "author": "Yanis Wang",
+  "license": "MIT"
+}
