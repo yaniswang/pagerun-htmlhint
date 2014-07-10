@@ -10,15 +10,19 @@ Sample code:
 
 	pagerun.setConfig({
 		htmlhint: {
-			"doctype-first": true,
-			"spec-char-escape": true,
-			"tag-pair": true,
-			"id-unique": true,
-			"src-not-empty": true,
+			"rules" :{
+				"doctype-first": true,
+				"spec-char-escape": true,
+				"tag-pair": true,
+				"id-unique": true,
+				"src-not-empty": true,
+				},
+			"once": true
 		}
 	});
 	
-More options: [https://github.com/yaniswang/HTMLHint/wiki/Rules](https://github.com/yaniswang/HTMLHint/wiki/Rules)
+1. rules : set HTMLHint rules, more options: [https://github.com/yaniswang/HTMLHint/wiki/Rules](https://github.com/yaniswang/HTMLHint/wiki/Rules)
+2. once : only scan the first html response
 
 License
 ================

@@ -1,10 +1,10 @@
 {
   "name": "pagerun-htmlhint",
-  "version": "0.9.1",
+  "version": "0.9.2",
   "description": "Htmlhint for pagerun.",
   "main": "htmlhint",
   "dependencies": {
-    "htmlhint": "0.9.5"
+    "htmlhint": "0.9.6"
   },
   "devDependencies": {},
   "repository": {
